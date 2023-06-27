@@ -1,22 +1,28 @@
-#Write a function called students_present. students_present
-#should take as input one parameter, a dictionary. The keys
-#of the dictionary will be names, and the values will be one
-#of three strings: "Here", "Present", or an empty string "".
+#Recall in the previous problem you counted the number of
+#instances of a certain first name in a list of full names.
+#You returned a dictionary with the name as the key, and the
+#number of times it appeared as the value.
 #
-#Return a list of the keys for whom the corresponding value
-#is either "Here" or "Present".
+#Modify that code such that instead of having a count as the
+#value, you instead have a list of the full names that had
+#that first name. So, each key in the dictionary would still
+#be a first name, but the values would be lists of names.
+#Make sure to sort the list of names, too.
+#
+#Name this new function name_lists.
 
 
-#Add your code here!
-def students_present(my_dict):
-    listreturn = []
-    for (item, val) in my_dict.items():
-        if val == "Present":
-            listreturn.append(item)
-        elif val == "Here":
-            listreturn.append(item)
-    return listreturn
-
+#Add your function here!
+def name_lists(my_list):
+    final_dict = {}
+    for names in my_list:
+        names = names.split(" ")
+        print(names)
+        if names[0] in final_dict:
+                final_dict[names[0]] = n
+        else:
+                final_dict[names[0]] = names
+    return final_dict
 
 
 
@@ -27,12 +33,9 @@ def students_present(my_dict):
 #
 #If your function works correctly, this will originally
 #print (although the order of the keys may vary):
-#["David", "Marguerite", "Joshua", "Erica"]
-
-student_list = {"David" : "Here", "Marguerite" : "Here",
-                "Jackie": "", "Joshua": "Present",
-                "Erica": "Here", "Daniel": ""}
-print(students_present(student_list))
-
-
-
+#{'Shelba': 5, 'Maren': 1, 'Nicol': 1, 'David': 2, 'Brenton': 2}
+name_list = ["David Joyner", "David Zuber", "Brenton Joyner",
+             "Brenton Zuber", "Nicol Barthel", "Shelba Barthel",
+             "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
+             "Shelba Fry", "Maren Fry"]
+print(name_lists(name_list))
