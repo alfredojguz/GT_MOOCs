@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #Recall in the previous problem you counted the number of
 #instances of a certain first name in a list of full names.
 #You returned a dictionary with the name as the key, and the
@@ -39,3 +40,5 @@ name_list = ["David Joyner", "David Zuber", "Brenton Joyner",
              "Shelba Crowley", "Shelba Fernald", "Shelba Odle",
              "Shelba Fry", "Maren Fry"]
 print(name_lists(name_list))
+=======
+>>>>>>> Stashed changes
