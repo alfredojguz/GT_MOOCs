@@ -27,6 +27,24 @@ def name_lists(my_list):
 
 
 
+<<<<<<< Updated upstream
+=======
+'''
+What name that is used for both genders has the smallest difference in
+which gender holds the name most frequently? In case of a tie,
+enter any one of the correct answers.
+'''
+mini = name_list["Isabella"]
+name_list = {}
+for i in range(len(baby_list)): 
+    name = baby_list[i][0]
+    ctr = baby_list[i][1]
+    gndr = baby_list[i][2]
+    if name in name_list.keys() and gndr != name_list[name][1]:
+        name_list[name] = [int(name_list[name][0]) -1, gndr, 1]
+    else:
+        name_list[name] = [1, gndr, 0]
+>>>>>>> Stashed changes
 
 #Below are some lines of code that will test your function.
 #You can change the value of the variable(s) to test your
