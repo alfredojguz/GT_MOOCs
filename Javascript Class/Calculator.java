@@ -58,11 +58,6 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Terminating...");
-
-            int[] nums = new int[5];
-            int nums1[] = new int[100];
-            int nums2[];
-            int nums[100];
         }
 
     }
