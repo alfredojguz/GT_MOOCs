@@ -1,3 +1,4 @@
+package prerequisites;
 import java.util.Scanner;
 
 public class FahrenheitToCelsiusPrintf {

@@ -1,3 +1,4 @@
+package prerequisites;
 public class IndexOfTest {
     public static void main(String[] args) {
         String funnyStr = "Computer!Science,!long!walks!on!the!beach";
