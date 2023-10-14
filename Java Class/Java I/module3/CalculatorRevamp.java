@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class CalculatorRevamp {
     public static void main(String[] args) {
         // Instantiate Scanner Object
         Scanner sc = new Scanner(System.in);
@@ -102,7 +102,7 @@ public class Calculator {
                     words[i] = words[i].replaceAll("^\"|\"$", "");
                 }
                 if ((words.length == 2) && (input.matches("[a-zA-Z\\s\\n\"]+"))) {
-                    int compareWords = words[0].compareTo(words[1]);
+                    int compareWords = words[0].toLowerCase().compareTo(words[1].toLowerCase());
                     if ((compareWords == 0) || (words[0].equalsIgnoreCase(words[1]))) {
                         System.out.println("Answer: Chicken or Egg.");
                     }
