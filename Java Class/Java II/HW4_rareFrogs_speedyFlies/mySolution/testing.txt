@@ -1,0 +1,149 @@
+testing.txt
+
+[Executed at: Sat Nov 4 14:39:23 PDT 2023]
+
+Error: All homework did not pass
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Running: test_toString_output
+Your Fly class has a proper toString() method
+    Failed: expected: but was:
+    Finished: test_toString_output
+Running: test_setMass_exists
+    Failed: Cannot find method setMass() with one param. Does it exist and is it spelled correctly?
+    Finished: test_setMass_exists
+Running: test_setSpeed_exists
+    Failed: Cannot find method setSpeed() with one param. Does it exist and is it spelled correctly?
+    Finished: test_setSpeed_exists
+Running: test_1param_constructor
+    Finished: test_1param_constructor
+Running: test_grow_exists
+    Finished: test_grow_exists
+Running: test_grow_boundary_fly
+    Failed: Fly had initial mass 20.0 and initial speed 10.0. It was grown by 20 mass units and did not have proper final mass.
+ expected:<40.0> but was:<20.0>
+    Finished: test_grow_boundary_fly
+Running: test_speed_private
+    Failed: The "speed" variable has to be private. expected: but was:
+    Finished: test_speed_private
+Running: test_no_arg_constructor
+Your no-argument constructor correctly sets mass and speedl
+    Finished: test_no_arg_constructor
+Running: test_two_param_constructor_exists
+    Finished: test_two_param_constructor_exists
+Running: test_fly_speed_field
+    Finished: test_fly_speed_field
+Running: test_grow_heavy_fly
+    Failed: Fly had initial mass 30.0 and initial speed 50.0. It was grown by 10 mass units and did not have proper final mass.
+ expected:<40.0> but was:<30.0>
+    Finished: test_grow_heavy_fly
+Running: test_getMass_exists
+    Failed: Cannot find method getMass() with no paramters. Does it exist and is it spelled correctly?
+    Finished: test_getMass_exists
+Running: test_grow_light_fly
+    Failed: Fly had initial mass 1.0 and initial speed 1.0. It was grown by 10 mass units and did not have proper final mass.
+ expected:<11.0> but was:<1.0>
+    Finished: test_grow_light_fly
+Running: test_isDead_exists
+    Failed: Cannot find method isDead(). Does it exist and is it spelled correctly?
+    Finished: test_isDead_exists
+Running: test_one_param_constructor_exists
+    Finished: test_one_param_constructor_exists
+Running: test_isDead_output
+    Failed: Could not find declared method: isDead([])
+    Finished: test_isDead_output
+Running: test_mass_private
+    Failed: The "mass" variable has to be private. expected: but was:
+    Finished: test_mass_private
+Running: test_fly_mass_field
+    Finished: test_fly_mass_field
+Running: test_no_param_constructor_exists
+    Finished: test_no_param_constructor_exists
+Running: test_2param_constructor
+    Finished: test_2param_constructor
+Running: test_getSpeed_exists
+    Failed: Cannot find method getSpeed() with no paramters. Does it exist and is it spelled correctly?
+    Finished: test_getSpeed_exists
+Running: test_toString_exists
+    Finished: test_toString_exists
+Running: test_grow_no_param
+    Finished: test_grow_no_param
+Running: test_frog_isFroglet_field
+    Finished: test_frog_isFroglet_field
+Running: test_toString_output
+    Failed: Something is wrong with your output, please check for your format. expected:<...Im a rare frog. Im 8[] months old and my t...> but was:<...Im a rare frog. Im 8[.00] months old and my t...>
+    Finished: test_toString_output
+Running: test_grow_1_param_edge_cases
+    Failed: Frog had initial age 5 and initial tongue speed 5. It was grown by 8 months and did not have proper final tongue speed.
+ expected:<12> but was:<11>
+    Finished: test_grow_1_param_edge_cases
+Running: test_frog_species_field
+    Finished: test_frog_species_field
+Running: test_grow_1_param_young_frog
+    Finished: test_grow_1_param_young_frog
+Running: test_grow_exists
+    Finished: test_grow_exists
+Running: test_eat_exists
+    Finished: test_eat_exists
+Running: test_frog_name_field
+    Finished: test_frog_name_field
+Running: test_age_private
+    Finished: test_age_private
+Running: test_species_static
+    Failed: The variable "species" has to be static
+    Finished: test_species_static
+Running: test_tongueSpeed_private
+    Finished: test_tongueSpeed_private
+Running: test_grow_noparam_exists
+    Finished: test_grow_noparam_exists
+Running: test_setSpecies_exists
+    Finished: test_setSpecies_exists
+Running: test_frog_tongueSpeed_field
+    Finished: test_frog_tongueSpeed_field
+Running: set_species_correctly
+    Finished: set_species_correctly
+Running: test_grow_1_param_old_frog
+    Failed: Frog had initial age 59 and initial tongue speed 5. It was grown by 8 months and did not have proper final tongue speed.
+ expected:<5> but was:<4>
+    Finished: test_grow_1_param_old_frog
+Running: test_frog_age_field
+    Finished: test_frog_age_field
+Running: test_getSpecies_exists
+    Finished: test_getSpecies_exists
+Running: test_toString_output_similar
+    Finished: test_toString_output_similar
+Running: get_species_correctly
+    Failed: null
+    Finished: get_species_correctly
+Running: test_species_private
+    Failed: begin 0, end 7, length 6
+    Finished: test_species_private
+Running: test_grow_1_param_middle_aged_frog
+    Finished: test_grow_1_param_middle_aged_frog
+Running: test_toString_exists
+    Finished: test_toString_exists
+Running: test_name_private
+    Finished: test_name_private
+Running: test_post_main_frog_fields
+    Failed: Frog should have species '1331 Frogs'
+expected:<1331 Frogs> actual:
+These strings are only 10.0% similar, less than or equal to the minimum allowed 95.0% similarity.
+    Finished: test_post_main_frog_fields
+Running: test_post_main_fly_fields
+    Failed: Should have printed a fly as such
+expected: actual:
+These strings are only 91.3% similar, less than or equal to the minimum allowed 95.0% similarity.
+    Finished: test_post_main_fly_fields
+Running: correct_testing_test_question_mark
+this is a free three points for completing this class
+    Finished: correct_testing_test_question_mark
+Running: testFlyChain
+Fly constructor chains properly in at least 2 constructors.
+    Finished: testFlyChain
+Running: testFrogChain
+Frog constructor chains properly in at least 2 constructors.
+    Finished: testFrogChain
+Test run: 52, Passed: 32, Failed: 20
+Score: 61/100
