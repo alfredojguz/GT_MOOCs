@@ -22,7 +22,7 @@ def letterCombinations(digits):
     if digits: # check that digits isn't empty: question requests array
         backtrack(0, "")
 
-    return ans 
+    return ans  
     
 
 # Test Cases
