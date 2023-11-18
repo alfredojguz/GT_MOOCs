@@ -64,6 +64,11 @@ public class mergeSort {
         int[] myList = {1, 4, 4, 5, 3, 2};
         mergeSort(myList, 0, 5);
         System.out.println(Arrays.toString(myList));
+
+        long start = System.nanoTime();
+        selectionSort(); //you can change this to any code block to collect its runtime
+        long end = System.nanoTime();
+        System.out.println("Elapsed time in ns:" + (end - start));
     }
 
 }
