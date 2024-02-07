@@ -79,7 +79,7 @@ public class BlueAstronaut extends Player implements Crewmate {
     }
 
     public String toString() {
-        String blueAstroString = super.toString() + String.format(" I have %.2f left over.", this.numTasks);
+        String blueAstroString = super.toString() + " I have " + this.numTasks + " left over.";
         if (this.getSusLevel() > 15) {
             return blueAstroString.toUpperCase();
         } return blueAstroString;
